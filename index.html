@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <h1>Snake Game</h1> -->
+
+  <div id="gameWrapper">
+    <canvas id="game" width="400" height="400"></canvas>
+
+    <div id="gameOverOverlay">
+      <div style="font-size:30px;">Game Over!</div>
+      <button id="restartBtnOverlay">Play Again</button>
+    </div>
+  </div>
+
+  <!-- Strelice za mobilne -->
+  <div id="controls">
+    <div>
+      <button onclick="setDirection('UP')">⬆</button>
+    </div>
+    <div>
+      <button onclick="setDirection('LEFT')">⬅</button>
+      <button onclick="setDirection('DOWN')">⬇</button>
+      <button onclick="setDirection('RIGHT')">➡</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
