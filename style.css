@@ -49,7 +49,6 @@ canvas {
   color: white;
 }
 
-/* Mobilne kontrole – strelice */
 #controls {
   display: none;
   margin-top: 20px;
@@ -68,9 +67,9 @@ canvas {
   cursor: pointer;
 }
 
-/* Pojavljuju se samo ispod 1200px */
 @media (max-width: 1200px) {
   #controls {
     display: block;
   }
 }
+
