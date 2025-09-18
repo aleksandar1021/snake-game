@@ -8,7 +8,7 @@ function resizeCanvas() {
     const newSize = Math.floor(window.innerWidth * 0.8);
     canvas.width = newSize;
     canvas.height = newSize;
-    box = newSize / 10; // grid 10x10
+    box = newSize / 10; 
   } else {
     canvas.width = 400;
     canvas.height = 400;
@@ -111,3 +111,4 @@ window.addEventListener("resize", () => {
 
 resizeCanvas();
 initGame();
+
